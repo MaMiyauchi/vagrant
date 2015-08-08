@@ -42,8 +42,8 @@
  
  
    def test_divide 
-     assert_equal 1,@main.divide(2,2), '2/2 is ok' 
-     assert_equal 2,@main.divide(8,4), '8/4 is ok' 
+     assert_equal '1',@main.divide(2,2), '2/2 is ok' 
+     assert_equal '2',@main.divide(8,4), '8/4 is ok' 
      assert_raises(ZeroDivisionError) {@main.divide(1,0)} 
    end 
 
